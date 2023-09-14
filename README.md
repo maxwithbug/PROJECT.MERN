@@ -1,8 +1,8 @@
 # MERN
-this is our fully functional MERN portfolio Website
+🟡 This is our fully functional MERN portfolio Website 🚀
 
-the task is creating front with react 
-back with node and mongo 
-that's it  HAVE FUN
+ 🛑 The task is creating (Front with react )
+ 🛑 (Back with node, mongo and Express)
+
 
 
