@@ -7,7 +7,9 @@ require("dotenv").config();
 
 const server = http.createServer(app);
 
-
+const proroutes = require("./routes/proroutes");
+app.use(express.json());
+app.use("/api/project", proroutes);
 
 
 

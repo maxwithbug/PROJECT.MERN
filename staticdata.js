@@ -4,7 +4,7 @@ const first = [
 
         title :"boom",
 
-        about :"lorem1",
+        about :"lorem1"
     },
 ];
 const sec = [
@@ -13,7 +13,7 @@ const sec = [
 
         title :"boom bam",
 
-        about :"lorem2",
+        about :"lorem2"
     },
 ];
 const third = [
@@ -22,6 +22,6 @@ const third = [
 
         title :"boom bam bm",
 
-        about :"lorem3",
+        about :"lorem3"
     },
 ];
