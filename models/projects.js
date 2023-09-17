@@ -17,7 +17,7 @@ const firstSchema = new mongoose.Schema({
 });
 const secSchema = new mongoose.Schema({
     pictureURL:{
-        type: string,
+        type: String,
         required : true
     },
     title :{
@@ -25,14 +25,14 @@ const secSchema = new mongoose.Schema({
         required : true
     },
     about :{
-        type : string , 
+        type : String , 
         required : true
     }
 
 });
 const thirdSchema = new mongoose.Schema({
     pictureURL:{
-        type: string,
+        type: String,
         required : true
     },
     title :{
@@ -40,7 +40,7 @@ const thirdSchema = new mongoose.Schema({
         required : true
     },
     about :{
-        type : string , 
+        type : String , 
         required : true
     }
 
