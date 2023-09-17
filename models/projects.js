@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 
 const firstSchema = new mongoose.Schema({
     pictureURL:{
-        type: string,
+        type: String,
         required : true
     },
     title :{
@@ -10,7 +10,7 @@ const firstSchema = new mongoose.Schema({
         required : true
     },
     about :{
-        type : string , 
+        type : String , 
         required : true
     }
 
