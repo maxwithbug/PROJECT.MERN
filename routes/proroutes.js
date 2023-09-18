@@ -1,10 +1,12 @@
-const routes = require("express").Router()
+const router = require("express").Router();
 
-const { Router } = require("express");
 const{firstSchema , secSchema , thirdSchema } = require("../models/projects");
-const { router } = require("../app");
 
-routes.get("/get-data" , async(req,res)=>{
+
+
+router.get("/get-data" , async(req,res)=>{
+
+    
     try{
         const first = firstSchema.find();
         const sec = secSchema.find();
@@ -24,7 +26,8 @@ routes.get("/get-data" , async(req,res)=>{
 
 });
 
-module.exports = router ;
+module.exports = router;
+
 
 
 
