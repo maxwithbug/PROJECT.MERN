@@ -8,9 +8,9 @@ router.get("/get-data" , async(req,res)=>{
 
     
     try{
-        const first = firstSchema.find();
-        const sec = secSchema.find();
-        const third = thirdSchema.find();
+        const first = await firstSchema.find();
+        const sec =  await secSchema.find();
+        const third =  await thirdSchema.find();
         
 
         res.status(200).send({
