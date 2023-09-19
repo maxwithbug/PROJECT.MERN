@@ -48,8 +48,8 @@ const thirdSchema = new mongoose.Schema({
 
 
 module.exports = {
-    firstSchema : mongoose.model("first", firstSchema),
-    secSchema : mongoose.model("sec", secSchema),
-    thirdSchema : mongoose.model("third", thirdSchema),
+    firstSc : mongoose.model("firsts", firstSchema),
+    secSc : mongoose.model("secs", secSchema),
+    thirdSc : mongoose.model("thirds", thirdSchema),
 
 };

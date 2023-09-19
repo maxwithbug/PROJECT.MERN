@@ -1,6 +1,6 @@
 const router = require("express").Router();
 
-const{firstSchema , secSchema , thirdSchema } = require("../models/projects");
+const{firstSc, secSc , thirdSc } = require("../models/projects");
 
 
 
@@ -8,15 +8,15 @@ router.get("/get-data" , async(req,res)=>{
 
     
     try{
-        const first = await firstSchema.find();
-        const sec =  await secSchema.find();
-        const third =  await thirdSchema.find();
+        const firsts = await firstSc.find();
+        const secs =  await secSc.find();
+        const thirds =  await thirdSc.find();
         
 
         res.status(200).send({
-            firstSchema : first,
-            secSchema : sec , 
-            thirdSchema : third ,
+            firstSc : firsts,
+            secSc : secs , 
+            thirdSc : thirds ,
         });
 
     }catch (error){
