@@ -11,7 +11,7 @@ connection.on("error" ,()=>{
 
 
 connection.on("connected" ,()=>{
-    console.log("conneection Successfull to database");
+    console.log("conneection Successfull to databasee");
 });
 
 module.exports=connection;
