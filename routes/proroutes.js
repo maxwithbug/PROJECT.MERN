@@ -4,7 +4,7 @@ const{firstSc, secSc , thirdSc } = require("../models/projects");
 
 
 
-router.get("/get-data" , async(req,res)=>{
+router.get("/get-data-mern" , async(req,res)=>{
 
     
     try{
